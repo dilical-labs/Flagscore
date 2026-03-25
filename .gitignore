@@ -3,7 +3,7 @@ node_modules
 # Output
 .output
 .vercel
-.netlify
+.netliey
 .wrangler
 /.svelte-kit
 /build
@@ -25,4 +25,4 @@ vite.config.ts.timestamp-*
 src/lib/paraglide
 project.inlang/cache/
 
-assets/
+references/

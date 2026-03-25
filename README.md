@@ -1,42 +1,25 @@
-# sv
+# Flagscore
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+**A competitive learning platform for cybersecurity, programming, and technical skill assessment.**
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Overview
 
-```sh
-# create a new project
-npx sv create my-app
-```
+Flagscore is a gamified platform designed to transform how technical skills are learned, practiced, and evaluated. Practice and compete on challenges directly from a lightweight interface without complex setup or infrastructure overhead.
+Well f it, don't like our interface? Lets connect your favored IDE with the competition room with a single command!
 
-To recreate this project with the same configuration:
+Flagscore is evolving into a unified system supporting competitions in multiple domains such as:
 
-```sh
-# recreate this project
-pnpm dlx sv@0.13.0 create --template minimal --types ts --add tailwindcss="plugins:typography,forms" paraglide="languageTags:en, es, hi+demo:no" vitest="usages:unit,component" --install pnpm .
-```
+* Data Structures and Algorithms (DSA)
+* Cybersecurity (CTF, Red/Blue Teaming)
+* Databases and SQL
+* Systems Programming
+* Data Science and Machine Learning
+* DevOps and System Administration
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## License
 
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This project is currently under development. Licensing details will be added in future releases.
